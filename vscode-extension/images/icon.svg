@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A2548"/>
+      <stop offset="1" stop-color="#14121F"/>
+    </linearGradient>
+    <linearGradient id="arc" gradientUnits="userSpaceOnUse" x1="60" y1="200" x2="190" y2="70">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="0.55" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+
+  <!-- gauge track: 270 degrees of a circle, r = 78, from bottom-left round to bottom-right -->
+  <path d="M72.85 195.15 A78 78 0 1 1 183.15 195.15" fill="none" stroke="#3B3560"
+        stroke-width="20" stroke-linecap="round"/>
+  <!-- gauge fill: 65% of the track -->
+  <path d="M72.85 195.15 A78 78 0 0 1 178.65 80.69" fill="none" stroke="url(#arc)"
+        stroke-width="20" stroke-linecap="round"/>
+
+  <!-- needle -->
+  <line x1="128" y1="140" x2="166.96" y2="94.38" stroke="#F8FAFC" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="128" cy="140" r="13" fill="#F8FAFC"/>
+  <circle cx="128" cy="140" r="5" fill="#2A2548"/>
+
+  <!-- two limit pills: session and week -->
+  <rect x="84" y="196" width="40" height="12" rx="6" fill="#2DD4BF"/>
+  <rect x="132" y="196" width="40" height="12" rx="6" fill="#FBBF24"/>
+</svg>
