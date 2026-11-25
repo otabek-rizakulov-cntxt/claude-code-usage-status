@@ -1,0 +1,24 @@
+{
+  "name": "claude-code-usage-status",
+  "displayName": "Usage Status for Claude Code",
+  "description": "Shows your Claude Code 5-hour and weekly usage limits in the status bar",
+  "version": "0.1.0",
+  "publisher": "otabek-rizakulov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otabek-rizakulov-cntxt/claude-code-usage-status"
+  },
+  "bugs": { "url": "https://github.com/otabek-rizakulov-cntxt/claude-code-usage-status/issues" },
+  "homepage": "https://github.com/otabek-rizakulov-cntxt/claude-code-usage-status#readme",
+  "keywords": ["claude", "claude code", "usage", "rate limit", "status bar"],
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "claudeUsage.refresh", "title": "Claude Code Usage: Refresh" }
+    ]
+  }
+}

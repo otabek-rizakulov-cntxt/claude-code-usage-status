@@ -1,0 +1,8 @@
+{
+  "name": "usage-limits",
+  "version": "0.1.0",
+  "description": "Pins the 5-hour and weekly Claude usage limits, with time to reset, as a status line, and saves them for the editor status bar extension",
+  "author": { "name": "Otabek Rizakulov" },
+  "repository": "https://github.com/otabek-rizakulov-cntxt/claude-code-usage-status",
+  "license": "MIT"
+}

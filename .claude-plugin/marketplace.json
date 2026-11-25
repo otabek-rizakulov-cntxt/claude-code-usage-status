@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-usage-status",
+  "owner": { "name": "Otabek Rizakulov" },
+  "description": "See your Claude Code 5-hour and weekly usage limits under the prompt and in the editor status bar",
+  "plugins": [
+    {
+      "name": "usage-limits",
+      "source": "./plugins/usage-limits",
+      "description": "Shows the 5-hour and weekly Claude usage limits under the prompt and feeds the editor status bar extension"
+    }
+  ]
+}
