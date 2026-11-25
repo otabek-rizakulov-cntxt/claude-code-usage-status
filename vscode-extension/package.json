@@ -1,5 +1,5 @@
 {
-  "name": "claude-code-usage-status",
+  "name": "usage-limits-claude-code",
   "displayName": "Usage Status for Claude Code",
   "description": "Shows your Claude Code 5-hour and weekly usage limits in the status bar",
   "version": "0.1.0",
